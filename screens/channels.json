@@ -1,0 +1,14 @@
+{
+  "channels": [
+    {
+      "manifestPath": "/content/screens/channels/noida-132-floor6-east.manifest.json",
+      "lastModified": "2023-04-12T10:44:22.000Z",
+      "externalId": "/content/screens/channels/noida-132-floor6-east",
+      "title": "Noida 132 6th Floor East",
+      "liveUrl": "https://main--inside-adobe--shrotia.hlx.live/content/screens/channels/noida-132-floor6-east"
+    }
+  ],
+  "metadata": {
+    "providerType": "franklin"
+  }
+}
