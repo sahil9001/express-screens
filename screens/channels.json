@@ -1,11 +1,11 @@
 {
   "channels": [
     {
-      "manifestPath": "/content/screens/channels/noida-132-floor6-east.manifest.json",
-      "lastModified": "2023-04-12T10:44:22.000Z",
-      "externalId": "/content/screens/channels/noida-132-floor6-east",
-      "title": "Noida 132 6th Floor East",
-      "liveUrl": "https://main--inside-adobe--shrotia.hlx.live/content/screens/channels/noida-132-floor6-east"
+      "manifestPath": "/internal/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.manifest.json",
+      "lastModified": "2023-04-17T12:39:35.000Z",
+      "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0",
+      "title": "Columns(locations)",
+      "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/internal/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.html"
     }
   ],
   "metadata": {
