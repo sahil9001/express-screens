@@ -9,11 +9,11 @@
     ],
     "defaultProvider": "franklin"
   },
-  "timestamp": 1681809394721,
+  "timestamp": 1681809395079,
   "entries": [
     {
-      "path": "/internal/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.html",
-      "timestamp": 1681809282000
+      "path": "/internal/content/screens/employee-communications/locations/test-global.html",
+      "timestamp": 1681809394826
     },
     {
       "path": "/scripts/lib-franklin.js",

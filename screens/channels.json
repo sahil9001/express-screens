@@ -2,10 +2,31 @@
   "channels": [
     {
       "manifestPath": "/internal/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.manifest.json",
-      "lastModified": "2023-04-18T09:14:36.891Z",
+      "lastModified": "2023-04-18T09:14:42.000Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0",
       "title": "test-player0",
       "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/internal/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.html"
+    },
+    {
+      "manifestPath": "/internal/content/screens/employee-communications/locations/test-global.manifest.json",
+      "lastModified": "2023-04-18T09:16:34.826Z",
+      "externalId": "/content/screens/employee-communications/locations/test-global",
+      "title": "test-global",
+      "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/internal/content/screens/employee-communications/locations/test-global.html"
+    },
+    {
+      "manifestPath": "/internal/content/screens/employee-communications/locations/global/test-north-america.manifest.json",
+      "lastModified": "2023-04-18T09:16:35.178Z",
+      "externalId": "/content/screens/employee-communications/locations/global/test-north-america",
+      "title": "test-north-america",
+      "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/internal/content/screens/employee-communications/locations/global/test-north-america.html"
+    },
+    {
+      "manifestPath": "/internal/content/screens/employee-communications/locations/global/north-america/test-us.manifest.json",
+      "lastModified": "2023-04-18T09:16:35.537Z",
+      "externalId": "/content/screens/employee-communications/locations/global/north-america/test-us",
+      "title": "test-us",
+      "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/internal/content/screens/employee-communications/locations/global/north-america/test-us.html"
     }
   ],
   "metadata": {
