@@ -23,7 +23,7 @@ jobs:
           node-version: '14'
       - run: npm install
       - name: Generate Screens Offline Resources
-        run: npm run generate-offlineresources helixManifest="/internal/screens/manifests" helixChannelsList="/internal/screens/channels" generateLoopingHtml=true
+        run: npm run generate-offlineresources helixManifest="/internal/screens/manifests" helixChannelsList="/internal/screens/channels" generateLoopingHtml=true customDomain="https://www.screens-insideadobe.com"
       - name: Commit files # transfer the generated manifest files back into the repository
         run: |
           git config --local user.name  ${{ github.actor }}
