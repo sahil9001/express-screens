@@ -2,28 +2,28 @@
   "channels": [
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.manifest.json",
-      "lastModified": "2023-04-21T07:41:10.156Z",
+      "lastModified": "2023-04-21T09:08:40.656Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0",
       "title": "test-player0",
       "liveUrl": "https://screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/test-global.manifest.json",
-      "lastModified": "2023-04-21T06:14:38.000Z",
+      "lastModified": "2023-04-21T09:08:41.064Z",
       "externalId": "/content/screens/employee-communications/locations/test-global",
       "title": "test-global",
       "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/content/screens/employee-communications/locations/test-global.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/test-north-america.manifest.json",
-      "lastModified": "2023-04-21T06:14:38.000Z",
+      "lastModified": "2023-04-21T09:08:41.534Z",
       "externalId": "/content/screens/employee-communications/locations/global/test-north-america",
       "title": "test-north-america",
       "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/content/screens/employee-communications/locations/global/test-north-america.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/north-america/test-us.manifest.json",
-      "lastModified": "2023-04-21T06:14:38.000Z",
+      "lastModified": "2023-04-21T09:08:41.968Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/test-us",
       "title": "test-us",
       "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/content/screens/employee-communications/locations/global/north-america/test-us.html"
