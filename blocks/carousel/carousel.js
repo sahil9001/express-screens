@@ -207,7 +207,7 @@ export default async function decorate(block) {
 
     const validateExtensionAndGetMediaType = (link) => {
         const supportedImageFormats = ['.png', '.jpg', '.jpeg', '.raw', '.tiff'];
-        const supportedVideoFormats = ['.mp4', '.wmv', '.avi', '.mpg'];
+        const supportedVideoFormats = ['.mp4', '.wmv', '.avi', '.mpg', '.m4v'];
         let mediaType;
         supportedImageFormats.forEach((format) => {
             if (link.includes(format)) {
