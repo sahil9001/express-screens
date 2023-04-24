@@ -2,28 +2,28 @@
   "channels": [
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.manifest.json",
-      "lastModified": "2023-04-24T16:38:55.402Z",
+      "lastModified": "2023-04-24T16:39:03.000Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0",
       "title": "test-player0",
       "liveUrl": "https://screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/test-global.manifest.json",
-      "lastModified": "2023-04-24T16:38:56.211Z",
+      "lastModified": "2023-04-24T16:39:03.000Z",
       "externalId": "/content/screens/employee-communications/locations/test-global",
       "title": "test-global",
       "liveUrl": "https://screens-insideadobe.com/content/screens/employee-communications/locations/test-global.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/test-north-america.manifest.json",
-      "lastModified": "2023-04-24T16:38:56.986Z",
+      "lastModified": "2023-04-24T16:39:03.000Z",
       "externalId": "/content/screens/employee-communications/locations/global/test-north-america",
       "title": "test-north-america",
       "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/content/screens/employee-communications/locations/global/test-north-america.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/north-america/test-us.manifest.json",
-      "lastModified": "2023-04-24T16:38:57.812Z",
+      "lastModified": "2023-04-24T16:39:03.000Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/test-us",
       "title": "test-us",
       "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/content/screens/employee-communications/locations/global/north-america/test-us.html"
