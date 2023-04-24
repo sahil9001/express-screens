@@ -9,21 +9,21 @@
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/test-global.manifest.json",
-      "lastModified": "2023-04-24T13:41:32.000Z",
+      "lastModified": "2023-04-24T16:22:42.459Z",
       "externalId": "/content/screens/employee-communications/locations/test-global",
       "title": "test-global",
       "liveUrl": "https://screens-insideadobe.com/content/screens/employee-communications/locations/test-global.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/test-north-america.manifest.json",
-      "lastModified": "2023-04-24T13:41:32.000Z",
+      "lastModified": "2023-04-24T16:22:42.803Z",
       "externalId": "/content/screens/employee-communications/locations/global/test-north-america",
       "title": "test-north-america",
       "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/content/screens/employee-communications/locations/global/test-north-america.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/north-america/test-us.manifest.json",
-      "lastModified": "2023-04-24T13:41:31.000Z",
+      "lastModified": "2023-04-24T16:22:43.182Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/test-us",
       "title": "test-us",
       "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/content/screens/employee-communications/locations/global/north-america/test-us.html"
