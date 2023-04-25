@@ -22,10 +22,12 @@ jobs:
         with:
           node-version: '14'
       - run: npm install
+      - name: create env file
+        run: |
+          touch .env
+          echo x-franklin-allowlist-key=${{ secrets.IA_FRANKLIN_ALLOWLIST_KEY }} >> .env
       - name: Generate Screens Offline Resources
         run: npm run generate-offlineresources helixManifest="/internal/screens/manifests" helixChannelsList="/internal/screens/channels" generateLoopingHtml=true customDomain="https://www.screens-insideadobe.com"
-        env:
-          x-franklin-allowlist-key: ${{ secrets.IA_FRANKLIN_ALLOWLIST_KEY }}
       - name: Commit files # transfer the generated manifest files back into the repository
         run: |
           git config --local user.name  ${{ github.actor }}
