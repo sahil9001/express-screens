@@ -9,11 +9,11 @@
     ],
     "defaultProvider": "franklin"
   },
-  "timestamp": 1682368487160,
+  "timestamp": 1682394285420,
   "entries": [
     {
       "path": "/content/screens/employee-communications/locations/test-global.html",
-      "timestamp": 1682367217000
+      "timestamp": 1682394285190
     },
     {
       "path": "/content/screens/assets/media_118cffddf8cdfdba99057108f21e914a5c116e94c.jpeg",
@@ -22,6 +22,10 @@
     {
       "path": "/content/screens/media_17f00c9733e34483cf846e6900f1d4cb2c3aa9129.m4v",
       "timestamp": 1682349093000
+    },
+    {
+      "path": "/content/screens/assets/media_14b2f7d47c71065defd7c7b4d73a60015e8137697.png",
+      "timestamp": 1682352989000
     }
   ]
 }
