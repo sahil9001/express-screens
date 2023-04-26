@@ -9,27 +9,11 @@
     ],
     "defaultProvider": "franklin"
   },
-  "timestamp": 1682491024324,
+  "timestamp": 1682491981381,
   "entries": [
     {
       "path": "/content/screens/employee-communications/locations/global/test-north-america.html",
-      "timestamp": 1682491024154
-    },
-    {
-      "path": "/content/screens/assets/media_118cffddf8cdfdba99057108f21e914a5c116e94c.jpeg",
-      "timestamp": 1682350781000
-    },
-    {
-      "path": "/content/screens/media_17f00c9733e34483cf846e6900f1d4cb2c3aa9129.m4v",
-      "timestamp": 1682349093000
-    },
-    {
-      "path": "/content/screens/assets/media_1bb33cd658378ab372eca9278f10ce4a7d5ad624e.jpeg",
-      "timestamp": 1682351523000
-    },
-    {
-      "path": "/content/screens/media_1d48fa6605d78fe5e354a4e05a4d81e77c1093a9a.m4v",
-      "timestamp": 1682349050000
+      "timestamp": 1682491981234
     }
   ]
 }
