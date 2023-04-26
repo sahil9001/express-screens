@@ -2,56 +2,42 @@
   "channels": [
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.manifest.json",
-      "lastModified": "2023-04-26T06:53:00.414Z",
+      "lastModified": "2023-04-26T11:06:41.000Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0",
       "title": "test-san-jose",
       "liveUrl": "https://screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/test-global.manifest.json",
-      "lastModified": "2023-04-26T06:53:00.996Z",
+      "lastModified": "2023-04-26T11:06:41.000Z",
       "externalId": "/content/screens/employee-communications/locations/test-global",
       "title": "test-global",
       "liveUrl": "https://screens-insideadobe.com/content/screens/employee-communications/locations/test-global.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/test-north-america.manifest.json",
-      "lastModified": "2023-04-26T06:53:01.234Z",
+      "lastModified": "2023-04-26T11:06:41.000Z",
       "externalId": "/content/screens/employee-communications/locations/global/test-north-america",
       "title": "test-north-america",
       "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/content/screens/employee-communications/locations/global/test-north-america.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/north-america/test-us.manifest.json",
-      "lastModified": "2023-04-26T06:53:01.568Z",
+      "lastModified": "2023-04-26T11:06:41.000Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/test-us",
       "title": "test-us",
       "liveUrl": "https://main--inside-adobe-screens--hlxsites.hlx.live/content/screens/employee-communications/locations/global/north-america/test-us.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/test-founders.manifest.json",
-      "lastModified": "2023-04-26T06:53:01.919Z",
+      "lastModified": "2023-04-26T11:06:41.000Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/test-founders",
-      "title": "Columns(locations)",
+      "title": "test-founder",
       "liveUrl": "https://screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/san-jose/test-founders.html"
     },
     {
-      "manifestPath": "/content/screens/assets/assetsupload.manifest.json",
-      "lastModified": "2023-04-25T11:28:31.000Z",
-      "externalId": "/content/screens/assets/assetsupload",
-      "title": "",
-      "liveUrl": "https://screens-insideadobe.com/content/screens/assets/assetsupload.html"
-    },
-    {
-      "manifestPath": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/san-jose.manifest.json",
-      "lastModified": "2023-04-26T06:53:02.603Z",
-      "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/san-jose",
-      "title": "san-jose",
-      "liveUrl": "https://screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/san-jose.html"
-    },
-    {
       "manifestPath": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/san-jose-office.manifest.json",
-      "lastModified": "2023-04-26T06:53:03.001Z",
+      "lastModified": "2023-04-26T16:58:57.643Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/san-jose-office",
       "title": "san-jose-office",
       "liveUrl": "https://screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/san-jose/san-jose-office.html"
