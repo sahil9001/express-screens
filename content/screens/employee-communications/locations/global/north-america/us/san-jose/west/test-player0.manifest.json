@@ -9,11 +9,11 @@
     ],
     "defaultProvider": "franklin"
   },
-  "timestamp": 1683014810989,
+  "timestamp": 1683031859091,
   "entries": [
     {
       "path": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.html",
-      "timestamp": 1683013632000
+      "timestamp": 1683031858492
     },
     {
       "path": "/media_1b1bb642703b3932c83c846efa357d510d99a7e98.png",
@@ -30,6 +30,10 @@
     {
       "path": "/media_188d51e0ceddd8baa32f4cf137cf0f04c0b61466c.png",
       "timestamp": 1682506562000
+    },
+    {
+      "path": "/media_1c24c6e3624e5bc9620dc5686c53d7f28900689c9.png",
+      "timestamp": 1682591064000
     },
     {
       "path": "/media_1730168b4d4d92b045d3650d225ea7d612233a071.png",
