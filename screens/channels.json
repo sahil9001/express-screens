@@ -34,13 +34,6 @@
       "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/test-founders",
       "title": "test-founder",
       "liveUrl": "https://screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/san-jose/test-founders.html"
-    },
-    {
-      "manifestPath": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/san-jose-office.manifest.json",
-      "lastModified": "2023-05-02T07:47:12.000Z",
-      "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/san-jose-office",
-      "title": "san-jose-office",
-      "liveUrl": "https://screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/san-jose/san-jose-office.html"
     }
   ],
   "metadata": {
