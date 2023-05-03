@@ -115,7 +115,7 @@ export default async function decorate(block) {
               setTimeout(() => {
                 incrementAdIndex();
                 playAds();
-              }, 1000);
+              }, 100);
             };
             img.onload = () => {
               container.innerHTML = '';
@@ -138,7 +138,7 @@ export default async function decorate(block) {
               setTimeout(() => {
                 incrementAdIndex();
                 playAds();
-              }, 1000);
+              }, 100);
             };
             video.onended = () => {
               video.classList.remove('visible');
@@ -175,17 +175,25 @@ export default async function decorate(block) {
   const extractSheetData = (url) => {
     const sheetDetails = [];
     const columns = document.querySelectorAll('.locations > div');
+    if (!Array.isArray(columns)) {
+      console.warn('No carousel data found while extracting sheet data.');
+      return sheetDetails;
+    }
     for (let i = 0; i < columns.length; i++) {
-      const divs = columns[i].getElementsByTagName('div');
-
-      const value = divs[0].textContent;
-      const link = divs[1].getElementsByTagName('a')[0].href;
-      const linkurl = new URL(link);
-
-      sheetDetails.push({
-        name: value,
-        link: url.origin + linkurl.pathname
-      })
+      try {
+        const divs = columns[i].getElementsByTagName('div');
+        const value = divs[0].textContent;
+        const link = divs[1].getElementsByTagName('a')[0].href;
+        if (link && link[0] && link[0].href) {
+          const linkUrl = new URL(link);
+          sheetDetails.push({
+            name: value,
+            link: url.origin + linkUrl.pathname
+          });
+        }
+      } catch (err) {
+        console.warn(`Exception while processing row ${i}`, err);
+      }
     }
     return sheetDetails;
   }
