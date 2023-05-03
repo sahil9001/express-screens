@@ -184,13 +184,11 @@ export default async function decorate(block) {
         const divs = columns[i].getElementsByTagName('div');
         const value = divs[0].textContent;
         const link = divs[1].getElementsByTagName('a')[0].href;
-        if (link && link[0] && link[0].href) {
-          const linkUrl = new URL(link);
-          sheetDetails.push({
-            name: value,
-            link: url.origin + linkUrl.pathname
-          });
-        }
+        const linkUrl = new URL(link);
+        sheetDetails.push({
+          name: value,
+          link: url.origin + linkUrl.pathname
+        });
       } catch (err) {
         console.warn(`Exception while processing row ${i}`, err);
       }
