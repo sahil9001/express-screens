@@ -277,10 +277,9 @@ export default async function decorate(block) {
     for (let sheetIndex = 0; sheetIndex < sheetDetails.length; sheetIndex++) {
       try {
         const sheetDataResponse = JSON.parse(await fetchData(sheetDetails[sheetIndex].link));
-        // const sheetDataResponse = JSON.parse();
         if (!sheetDataResponse) {
           console.warn(`Invalid sheet Link ${JSON.stringify(sheetDetails[sheetIndex])}.Skipping processing this one.`);
-          return;
+          continue;
         }
         const sheetName = sheetDetails[sheetIndex].name;
         const sheetData = processSheetDataResponse(sheetDataResponse, sheetName);
