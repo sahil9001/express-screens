@@ -1,34 +1,6 @@
 export default async function decorate(block) {
   const scriptText = async (assets) => {
     let currentIndex = 0;
-    const parseStartDateString = (dateString, isGMT) => {
-      if (!dateString) {
-        return new Date();
-      }
-      return parseDateString(dateString, isGMT);
-    }
-    const parseEndDateString = (dateString, isGMT) => {
-      if (!dateString) {
-        const date = new Date();
-        date.setFullYear(date.getFullYear() + 10);
-        return date;
-      }
-      return parseDateString(dateString, isGMT);
-    }
-    const parseStartTimeString = (timeString, isGMT) => {
-      if (!timeString) {
-        return new Date();
-      }
-      return parseTimeString(timeString, isGMT);
-    }
-    const parseEndTimeString = (timeString, isGMT) => {
-      if (!timeString) {
-        const date = new Date();
-        date.setFullYear(date.getFullYear() + 10);
-        return date;
-      }
-      return parseTimeString(timeString, isGMT);
-    }
 
     const parseDateString = (dateString, isGMT) => {
       const dateParts = dateString.split('/');
@@ -39,7 +11,8 @@ export default async function decorate(block) {
         return new Date(Date.UTC(year, month, day));
       }
       return new Date(year, month, day);
-    }
+    };
+
     const parseTimeString = (timeString, isGMT) => {
       const parts = timeString.split(':');
       let hours = parseInt(parts[0], 10);
@@ -63,7 +36,39 @@ export default async function decorate(block) {
         dateObj.setSeconds(seconds);
       }
       return dateObj;
-    }
+    };
+
+    const parseStartDateString = (dateString, isGMT) => {
+      if (!dateString) {
+        return new Date();
+      }
+      return parseDateString(dateString, isGMT);
+    };
+
+    const parseEndDateString = (dateString, isGMT) => {
+      if (!dateString) {
+        const date = new Date();
+        date.setFullYear(date.getFullYear() + 10);
+        return date;
+      }
+      return parseDateString(dateString, isGMT);
+    };
+
+    const parseStartTimeString = (timeString, isGMT) => {
+      if (!timeString) {
+        return new Date();
+      }
+      return parseTimeString(timeString, isGMT);
+    };
+
+    const parseEndTimeString = (timeString, isGMT) => {
+      if (!timeString) {
+        const date = new Date();
+        date.setFullYear(date.getFullYear() + 10);
+        return date;
+      }
+      return parseTimeString(timeString, isGMT);
+    };
 
     const checkForPlayableAssets = async (assets = []) => {
       if (assets.length === 0) {
@@ -85,7 +90,11 @@ export default async function decorate(block) {
         await new Promise(r => setTimeout(r, 5000));
         await checkForPlayableAssets(assets);
       }
-    }
+    };
+
+    const incrementAdIndex = () => {
+      currentIndex = (currentIndex + 1) % assets.length;
+    };
 
     async function playAds() {
       const container = document.getElementById('carousel-container');
@@ -102,11 +111,13 @@ export default async function decorate(block) {
           if (asset.type === 'image') {
             const img = new Image();
             img.src = asset.link;
-            img.onerror = function () {
-              incrementAdIndex();
-              playAds();
+            img.onerror = () => {
+              setTimeout(() => {
+                incrementAdIndex();
+                playAds();
+              }, 1000);
             };
-            img.onload = function () {
+            img.onload = () => {
               container.innerHTML = '';
               container.appendChild(img);
               setTimeout(() => {
@@ -116,18 +127,20 @@ export default async function decorate(block) {
                   container.removeChild(img);
                   incrementAdIndex();
                   playAds();
-                }, 5000);
+                }, 8000);
               }, 10);
             };
             break;
           } else if (asset.type === 'video') {
             const video = document.createElement('video');
             video.src = asset.link;
-            video.onerror = function () {
-              incrementAdIndex();
-              playAds();
+            video.onerror = () => {
+              setTimeout(() => {
+                incrementAdIndex();
+                playAds();
+              }, 1000);
             };
-            video.onended = function () {
+            video.onended = () => {
               video.classList.remove('visible');
               setTimeout(() => {
                 container.removeChild(video);
@@ -135,7 +148,7 @@ export default async function decorate(block) {
                 playAds();
               }, 10);
             };
-            video.oncanplay = function () {
+            video.oncanplay = () => {
               container.innerHTML = '';
               container.appendChild(video);
               video.play();
@@ -152,11 +165,8 @@ export default async function decorate(block) {
         }
       }
     }
-    function incrementAdIndex() {
-      currentIndex = (currentIndex + 1) % assets.length;
-    }
-    await playAds();
-  }
+    playAds();
+  };
 
   const runCarousel = async (assets = []) => {
     await scriptText(assets);
