@@ -9,11 +9,11 @@
     ],
     "defaultProvider": "franklin"
   },
-  "timestamp": 1683114968950,
+  "timestamp": 1683115538324,
   "entries": [
     {
       "path": "/content/screens/employee-communications/locations/global/north-america/us/test-san-jose.html",
-      "timestamp": 1683114968762
+      "timestamp": 1683115538075
     },
     {
       "path": "/media_1b1bb642703b3932c83c846efa357d510d99a7e98.png",
@@ -26,6 +26,10 @@
     {
       "path": "/media_1adeddbaff8ee51942dd50b2e2b6cbcaffd65f677.png",
       "timestamp": 1682506581000
+    },
+    {
+      "path": "/media_188d51e0ceddd8baa32f4cf137cf0f04c0b61466c.png",
+      "timestamp": 1683109058000
     }
   ]
 }
