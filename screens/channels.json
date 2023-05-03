@@ -2,42 +2,42 @@
   "channels": [
     {
       "manifestPath": "/content/screens/employee-communications/locations/test-global.manifest.json",
-      "lastModified": "2023-05-03T08:58:25.020Z",
+      "lastModified": "2023-05-03T08:58:32.000Z",
       "externalId": "/content/screens/employee-communications/locations/test-global",
       "title": "test-global",
       "liveUrl": "https://www.screens-insideadobe.com/content/screens/employee-communications/locations/test-global.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/test-north-america.manifest.json",
-      "lastModified": "2023-05-03T08:58:25.418Z",
+      "lastModified": "2023-05-03T09:12:53.626Z",
       "externalId": "/content/screens/employee-communications/locations/global/test-north-america",
       "title": "test-north-america",
       "liveUrl": "https://www.screens-insideadobe.com/content/screens/employee-communications/locations/global/test-north-america.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/north-america/test-us.manifest.json",
-      "lastModified": "2023-05-03T08:58:25.754Z",
+      "lastModified": "2023-05-03T08:58:32.000Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/test-us",
       "title": "test-us",
       "liveUrl": "https://www.screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/test-us.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/north-america/us/test-san-jose.manifest.json",
-      "lastModified": "2023-05-03T08:58:26.151Z",
+      "lastModified": "2023-05-03T08:58:32.000Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/us/test-san-jose",
       "title": "test-san-jose",
       "liveUrl": "https://www.screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/test-san-jose.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/test-founders.manifest.json",
-      "lastModified": "2023-05-03T08:58:26.522Z",
+      "lastModified": "2023-05-03T08:58:32.000Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/test-founders",
       "title": "test-founder",
       "liveUrl": "https://www.screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/san-jose/test-founders.html"
     },
     {
       "manifestPath": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.manifest.json",
-      "lastModified": "2023-05-03T08:58:27.128Z",
+      "lastModified": "2023-05-03T08:58:32.000Z",
       "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0",
       "title": "test-player0",
       "liveUrl": "https://www.screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.html"
