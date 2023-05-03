@@ -175,7 +175,7 @@ export default async function decorate(block) {
   const extractSheetData = (url) => {
     const sheetDetails = [];
     const columns = document.querySelectorAll('.locations > div');
-    if (!Array.isArray(columns)) {
+    if (!columns) {
       console.warn('No carousel data found while extracting sheet data.');
       return sheetDetails;
     }
