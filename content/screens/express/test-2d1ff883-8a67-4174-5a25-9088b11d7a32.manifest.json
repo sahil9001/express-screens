@@ -9,7 +9,7 @@
     ],
     "defaultProvider": "franklin"
   },
-  "timestamp": 1685436084661,
+  "timestamp": 1685439355032,
   "entries": [
     {
       "path": "/content/screens/express/test-2d1ff883-8a67-4174-5a25-9088b11d7a32",
@@ -26,18 +26,6 @@
     {
       "path": "/styles/styles.css",
       "timestamp": 1683548841000
-    },
-    {
-      "path": "/scripts/delayed.js",
-      "timestamp": 1683548840000
-    },
-    {
-      "path": "/blocks/columns/columns.css",
-      "timestamp": 1683548838000
-    },
-    {
-      "path": "/blocks/columns/columns.js",
-      "timestamp": 1683548838000
     }
   ]
 }
