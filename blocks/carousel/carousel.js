@@ -105,6 +105,7 @@ export default async function decorate(block) {
         const launchEndDate = parseEndDateString(asset.launchEndDate, asset.isGMT);
         const startTime = parseStartTimeString(asset.startTime, asset.isGMT);
         const endTime = parseEndTimeString(asset.endTime, asset.isGMT);
+        const duration = asset.duration;
         const now = new Date();
         if (now >= launchStartDate && now <= launchEndDate
           && now >= startTime && now <= endTime) {
@@ -127,7 +128,7 @@ export default async function decorate(block) {
                   container.removeChild(img);
                   incrementAdIndex();
                   playAds();
-                }, 8000);
+                }, duration);
               }, 10);
             };
             break;
@@ -297,6 +298,7 @@ export default async function decorate(block) {
               'endTime': assetDetails['End Time'],
               'launchStartDate': assetDetails['Launch Start'],
               'launchEndDate': assetDetails['Launch End'],
+              'duration': assetDetails['Duration'],
               'type': contentType,
               'isGMT': isGMT(assetDetails['Timezone'])
             });
