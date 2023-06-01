@@ -1,46 +1,64 @@
 {
   "channels": [
     {
-      "manifestPath": "/content/screens/employee-communications/locations/test-global.manifest.json",
-      "lastModified": "2023-05-03T09:48:18.000Z",
-      "externalId": "/content/screens/employee-communications/locations/test-global",
-      "title": "test-global",
-      "liveUrl": "https://www.screens-insideadobe.com/content/screens/employee-communications/locations/test-global.html"
+      "lastModified": "2023-05-30T07:22:22.000Z",
+      "externalId": "/content/screens/express/test-2d1ff883-8a67-4174-5a25-9088b11d7a32",
+      "title": "test-2d1ff883-8a67-4174-5a25-9088b11d7a32",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/test-2d1ff883-8a67-4174-5a25-9088b11d7a32"
     },
     {
-      "manifestPath": "/content/screens/employee-communications/locations/global/test-north-america.manifest.json",
-      "lastModified": "2023-05-03T09:48:18.000Z",
-      "externalId": "/content/screens/employee-communications/locations/global/test-north-america",
-      "title": "test-north-america",
-      "liveUrl": "https://www.screens-insideadobe.com/content/screens/employee-communications/locations/global/test-north-america.html"
+      "lastModified": "2023-05-30T20:45:10.000Z",
+      "externalId": "/content/screens/express/test-8d6268c5-5e06-4dce-ed27-e64478f7da1c",
+      "title": "test-8d6268c5-5e06-4dce-ed27-e64478f7da1c",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/test-8d6268c5-5e06-4dce-ed27-e64478f7da1c"
     },
     {
-      "manifestPath": "/content/screens/employee-communications/locations/global/north-america/test-us.manifest.json",
-      "lastModified": "2023-05-03T09:48:18.000Z",
-      "externalId": "/content/screens/employee-communications/locations/global/north-america/test-us",
-      "title": "test-us",
-      "liveUrl": "https://www.screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/test-us.html"
+      "lastModified": "2023-05-30T21:23:53.000Z",
+      "externalId": "/content/screens/express/test-b0fc51e1-2480-4186-47d0-ad38593ef181",
+      "title": "test-b0fc51e1-2480-4186-47d0-ad38593ef181",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/test-b0fc51e1-2480-4186-47d0-ad38593ef181"
     },
     {
-      "manifestPath": "/content/screens/employee-communications/locations/global/north-america/us/test-san-jose.manifest.json",
-      "lastModified": "2023-05-03T12:05:44.000Z",
-      "externalId": "/content/screens/employee-communications/locations/global/north-america/us/test-san-jose",
-      "title": "test-san-jose",
-      "liveUrl": "https://www.screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/test-san-jose.html"
+      "lastModified": "2023-05-30T21:37:29.000Z",
+      "externalId": "/content/screens/express/test-61b345be-31e1-452b-fe64-78b7590c5149",
+      "title": "test-61b345be-31e1-452b-fe64-78b7590c5149",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/test-61b345be-31e1-452b-fe64-78b7590c5149"
     },
     {
-      "manifestPath": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/test-founders.manifest.json",
-      "lastModified": "2023-05-03T12:05:44.000Z",
-      "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/test-founders",
-      "title": "test-founder",
-      "liveUrl": "https://www.screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/san-jose/test-founders.html"
+      "lastModified": "2023-05-31T05:36:16.000Z",
+      "externalId": "/content/screens/express/test-321b4ee9-ee64-4ea8-a115-a18cdc324c1d",
+      "title": "test-321b4ee9-ee64-4ea8-a115-a18cdc324c1d",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/test-321b4ee9-ee64-4ea8-a115-a18cdc324c1d"
     },
     {
-      "manifestPath": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.manifest.json",
-      "lastModified": "2023-05-03T12:05:44.000Z",
-      "externalId": "/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0",
-      "title": "test-player0",
-      "liveUrl": "https://www.screens-insideadobe.com/content/screens/employee-communications/locations/global/north-america/us/san-jose/west/test-player0.html"
+      "lastModified": "2023-05-31T05:46:35.000Z",
+      "externalId": "/content/screens/express/test-f0cf3ab6-4c01-4977-7cf4-a313cb535381",
+      "title": "test-f0cf3ab6-4c01-4977-7cf4-a313cb535381",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/test-f0cf3ab6-4c01-4977-7cf4-a313cb535381"
+    },
+    {
+      "lastModified": "2023-05-31T06:14:49.000Z",
+      "externalId": "/content/screens/express/test-b59588d2-2b34-404b-2f42-16eed24b2651",
+      "title": "test-b59588d2-2b34-404b-2f42-16eed24b2651",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/test-b59588d2-2b34-404b-2f42-16eed24b2651"
+    },
+    {
+      "lastModified": "2023-05-31T11:27:50.000Z",
+      "externalId": "/content/screens/express/test-e69ccf49-20a3-4536-3ef8-38ea72688b22",
+      "title": "test-e69ccf49-20a3-4536-3ef8-38ea72688b22",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/test-e69ccf49-20a3-4536-3ef8-38ea72688b22"
+    },
+    {
+      "lastModified": "2023-05-31T12:14:28.000Z",
+      "externalId": "/content/screens/express/test-14f5ceb5-12aa-4848-75e4-0ebf94d3a259",
+      "title": "test-14f5ceb5-12aa-4848-75e4-0ebf94d3a259",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/test-14f5ceb5-12aa-4848-75e4-0ebf94d3a259"
+    },
+    {
+      "lastModified": "2023-05-31T13:22:37.000Z",
+      "externalId": "/content/screens/express/test-dd183756-6949-4094-f6b7-cc8d31103993",
+      "title": "test-dd183756-6949-4094-f6b7-cc8d31103993",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/test-dd183756-6949-4094-f6b7-cc8d31103993"
     }
   ],
   "metadata": {

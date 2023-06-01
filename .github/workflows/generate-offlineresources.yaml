@@ -29,7 +29,7 @@ jobs:
       - name: Generate Screens Offline Resources
         run: |
           export franklinAllowlistKey=${{ secrets.IA_FRANKLIN_ALLOWLIST_KEY }}
-          npm run generate-offlineresources helixManifest="/internal/screens/manifests" helixChannelsList="/internal/screens/channels" generateLoopingHtml=true customDomain="https://www.screens-insideadobe.com"
+          npm run generate-offlineresources helixManifest="/internal/screens/manifests" helixChannelsList="/internal/screens/channels"
         env:
           franklinAllowlistKey: ${{ secrets.IA_FRANKLIN_ALLOWLIST_KEY }}
       - name: Commit files # transfer the generated manifest files back into the repository
