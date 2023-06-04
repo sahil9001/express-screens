@@ -9,23 +9,10 @@
     ],
     "defaultProvider": "franklin"
   },
-  "timestamp": 1685859553944,
+  "timestamp": 1685862610651,
   "entries": [
     {
-      "path": "/content/screens/express/test-a6d077bd-7cfb-4857-e166-cc0853daf720",
-      "timestamp": 1685622545000
-    },
-    {
-      "path": "/scripts/lib-franklin.js",
-      "timestamp": 1683548840000
-    },
-    {
-      "path": "/scripts/scripts.js",
-      "timestamp": 1683548840000
-    },
-    {
-      "path": "/styles/styles.css",
-      "timestamp": 1683548841000
+      "path": "/content/screens/express/test-a6d077bd-7cfb-4857-e166-cc0853daf720.html"
     }
   ]
 }
