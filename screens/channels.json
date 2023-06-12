@@ -138,7 +138,7 @@
     },
     {
       "manifestPath": "/content/screens/express/test-9cedb0e2-c800-4b72-32c6-24231f112cbf.manifest.json",
-      "lastModified": "2023-06-09T09:05:28.603Z",
+      "lastModified": "2023-06-09T09:05:34.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -152,6 +152,23 @@
       "externalId": "/content/screens/express/test-9cedb0e2-c800-4b72-32c6-24231f112cbf",
       "title": "test-9cedb0e2-c800-4b72-32c6-24231f112cbf",
       "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/test-9cedb0e2-c800-4b72-32c6-24231f112cbf.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/test-express.manifest.json",
+      "lastModified": "1970-01-01T00:00:00.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/test-express",
+      "title": "test-express-title",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/test-express.html"
     }
   ],
   "metadata": {
