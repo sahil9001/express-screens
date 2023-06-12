@@ -167,12 +167,12 @@
         }
       ],
       "externalId": "/content/screens/express/test-express",
-      "title": "test-express-title",
+      "title": "channel-title",
       "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/test-express.html"
     },
     {
       "manifestPath": "/content/screens/express/test-9490caa2-72d0-4483-19af-7efae1a9b589.manifest.json",
-      "lastModified": "2023-06-12T09:40:37.498Z",
+      "lastModified": "2023-06-12T09:40:43.000Z",
       "hierarchy": [
         {
           "title": "screens",
