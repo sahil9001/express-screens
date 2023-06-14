@@ -2,7 +2,7 @@
   "channels": [
     {
       "manifestPath": "/content/screens/express/test-fb5c9454-bea7-4c40-b5bd-22eaa00ba3fe.manifest.json",
-      "lastModified": "2023-06-09T09:02:49.000Z",
+      "lastModified": "2023-06-05T18:37:20.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -53,7 +53,7 @@
     },
     {
       "manifestPath": "/content/screens/express/test-8f7231f3-57b6-4f6c-64e0-55ce96626fd3.manifest.json",
-      "lastModified": "2023-06-09T09:02:49.000Z",
+      "lastModified": "2023-06-07T10:29:33.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -70,7 +70,7 @@
     },
     {
       "manifestPath": "/content/screens/express/test-4e32308a-8a3a-4f51-04db-fe4fe0627f56.manifest.json",
-      "lastModified": "2023-06-09T09:02:49.000Z",
+      "lastModified": "2023-06-07T10:40:04.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -223,7 +223,7 @@
     },
     {
       "manifestPath": "/content/screens/express/test-f64a9b9e-2c33-4c5e-b626-7b2231ec3434.manifest.json",
-      "lastModified": "2023-06-14T09:45:46.023Z",
+      "lastModified": "2023-06-14T09:45:52.000Z",
       "hierarchy": [
         {
           "title": "screens",
