@@ -1,5 +1,23 @@
 {
-  "channels": [],
+  "channels": [
+    {
+      "manifestPath": "/content/screens/express/8bc15558-ca8a-4caf-e934-b64f93c526af.manifest.json",
+      "lastModified": "2023-06-23T09:05:54.731Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/8bc15558-ca8a-4caf-e934-b64f93c526af",
+      "title": "My project",
+      "liveUrl": "https://main--express-dev--nawaz-adobe.hlx.live/content/screens/express/8bc15558-ca8a-4caf-e934-b64f93c526af.html"
+    }
+  ],
   "metadata": {
     "providerType": "franklin"
   }
