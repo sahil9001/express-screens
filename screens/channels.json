@@ -1,23 +1,5 @@
 {
-  "channels": [
-    {
-      "manifestPath": "/content/screens/express/24a46bd0-9034-4b08-91d2-34cd8d95982e.manifest.json",
-      "lastModified": "2023-06-15T15:09:29.316Z",
-      "hierarchy": [
-        {
-          "title": "screens",
-          "path": "/content/screens"
-        },
-        {
-          "title": "express",
-          "path": "/content/screens/express"
-        }
-      ],
-      "externalId": "/content/screens/express/24a46bd0-9034-4b08-91d2-34cd8d95982e",
-      "title": "Recognitions-Gitesh-Org",
-      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/24a46bd0-9034-4b08-91d2-34cd8d95982e.html"
-    }
-  ],
+  "channels": [],
   "metadata": {
     "providerType": "franklin"
   }
