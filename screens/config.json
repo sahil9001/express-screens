@@ -1,9 +1,6 @@
 {
     "server": "http://localhost:4502",
     "registrationKey": "",
-    "device": "",
-    "user": "",
-    "password": "",
     "resolution": "auto",
     "rebootSchedule": "at 4:00 am",
     "maxNumberOfLogFilesToKeep": 10,
