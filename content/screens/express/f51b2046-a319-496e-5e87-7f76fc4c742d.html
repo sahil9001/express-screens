@@ -1,7 +1,7 @@
 <html lang="en-US">
              <head>
                <title></title>
-               <script type="module">const assets = JSON.parse('[{"link":"/content/screens/assets/b8fcbbdb-d854-4083-8886-570bf94fee2d-0.jpeg","startTime":"12:00:00 AM","endTime":"11:59:59 PM","launchStartDate":"20/06/2023","launchEndDate":"20/06/2024","type":"image","isGMT":false}]');
+               <script type="module">const assets = JSON.parse('[{"link":"/content/screens/assets/b8fcbbdb-d854-4083-8886-570bf94fee2d-0.jpeg","startTime":"12:00:00 AM","endTime":"11:59:59 PM","launchStartDate":"20/06/2023","launchEndDate":"20/06/2024","duration":"5000","type":"image","isGMT":false}]');
   let currentIndex = 0;
 
   const parseDateString = (dateString, isGMT) => {
@@ -107,6 +107,7 @@
       const launchEndDate = parseEndDateString(asset.launchEndDate, asset.isGMT);
       const startTime = parseStartTimeString(asset.startTime, asset.isGMT);
       const endTime = parseEndTimeString(asset.endTime, asset.isGMT);
+      const duration = asset.duration ? asset.duration : 8000;
       const now = new Date();
       if (now >= launchStartDate && now <= launchEndDate
         && now >= startTime && now <= endTime) {
@@ -129,7 +130,7 @@
                 container.removeChild(img);
                 incrementAdIndex();
                 playAds();
-              }, 8000);
+              }, duration);
             }, 10);
           };
           break;
