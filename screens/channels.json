@@ -36,7 +36,7 @@
     },
     {
       "manifestPath": "/content/screens/express/876063d4-d563-475d-971d-4901eb7bf6a6.manifest.json",
-      "lastModified": "2023-06-26T11:29:06.000Z",
+      "lastModified": "2023-06-27T15:22:59.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -53,7 +53,7 @@
     },
     {
       "manifestPath": "/content/screens/express/46b4e42d-a9f6-4f84-bdaf-ac43fae1ca3f.manifest.json",
-      "lastModified": "2023-06-27T10:39:11.550Z",
+      "lastModified": "2023-06-27T15:22:59.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -67,6 +67,23 @@
       "externalId": "/content/screens/express/46b4e42d-a9f6-4f84-bdaf-ac43fae1ca3f",
       "title": "GITESH-ORG-RECOGNITIONS",
       "liveUrl": "https://main--express-dev--nawaz-adobe.hlx.live/content/screens/express/46b4e42d-a9f6-4f84-bdaf-ac43fae1ca3f.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/6274a008-cfaa-49d2-2ed6-26f1fa8b9373.manifest.json",
+      "lastModified": "2023-06-27T15:25:32.292Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/6274a008-cfaa-49d2-2ed6-26f1fa8b9373",
+      "title": "Announcement-Channel",
+      "liveUrl": "https://main--express-dev--nawaz-adobe.hlx.live/content/screens/express/6274a008-cfaa-49d2-2ed6-26f1fa8b9373.html"
     }
   ],
   "metadata": {
