@@ -2,7 +2,7 @@
   "channels": [
     {
       "manifestPath": "/content/screens/express/8bc15558-ca8a-4caf-e934-b64f93c526af.manifest.json",
-      "lastModified": "2023-06-27T15:31:20.364Z",
+      "lastModified": "2023-06-27T15:31:28.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -19,7 +19,7 @@
     },
     {
       "manifestPath": "/content/screens/express/53da0394-08b8-4e76-4996-bb1f1911ad96.manifest.json",
-      "lastModified": "2023-06-27T15:31:20.567Z",
+      "lastModified": "2023-06-27T15:31:27.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -36,7 +36,7 @@
     },
     {
       "manifestPath": "/content/screens/express/876063d4-d563-475d-971d-4901eb7bf6a6.manifest.json",
-      "lastModified": "2023-06-27T15:31:20.850Z",
+      "lastModified": "2023-06-27T15:31:27.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -53,7 +53,7 @@
     },
     {
       "manifestPath": "/content/screens/express/46b4e42d-a9f6-4f84-bdaf-ac43fae1ca3f.manifest.json",
-      "lastModified": "2023-06-27T15:31:22.089Z",
+      "lastModified": "2023-06-27T15:31:27.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -70,7 +70,7 @@
     },
     {
       "manifestPath": "/content/screens/express/6274a008-cfaa-49d2-2ed6-26f1fa8b9373.manifest.json",
-      "lastModified": "2023-06-27T15:31:22.444Z",
+      "lastModified": "2023-06-27T15:31:27.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -84,6 +84,23 @@
       "externalId": "/content/screens/express/6274a008-cfaa-49d2-2ed6-26f1fa8b9373",
       "title": "Announcement-Channel",
       "liveUrl": "https://main--express-dev--nawaz-adobe.hlx.live/content/screens/express/6274a008-cfaa-49d2-2ed6-26f1fa8b9373.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/a6530eaa-0fdc-4373-f468-b053a2b33213.manifest.json",
+      "lastModified": "2023-06-29T08:25:13.352Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/a6530eaa-0fdc-4373-f468-b053a2b33213",
+      "title": "Recognitions-GITESH-ORG-JUNE",
+      "liveUrl": "https://main--express-dev--nawaz-adobe.hlx.live/content/screens/express/a6530eaa-0fdc-4373-f468-b053a2b33213.html"
     }
   ],
   "metadata": {
