@@ -4,7 +4,7 @@
     "resolution": "auto",
     "rebootSchedule": "at 4:00 am",
     "maxNumberOfLogFilesToKeep": 10,
-    "logLevel": 3,
+    "logLevel": 1,
     "enableAdminUI": true,
     "enableOSD": true,
     "enableActivityUI": false,
