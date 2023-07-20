@@ -33,23 +33,6 @@
       "externalId": "/content/screens/express/879122cf-ccfa-4c55-7b67-2445c0f10e55",
       "title": "nawaz-wiki-test",
       "liveUrl": "https://main--express-dev--nawaz-adobe.hlx.live/content/screens/express/879122cf-ccfa-4c55-7b67-2445c0f10e55.html"
-    },
-    {
-      "manifestPath": "/content/screens/express/aceb4fea-168f-4a2f-df86-d3866168b89d.manifest.json",
-      "lastModified": "2023-07-20T05:57:50.000Z",
-      "hierarchy": [
-        {
-          "title": "screens",
-          "path": "/content/screens"
-        },
-        {
-          "title": "express",
-          "path": "/content/screens/express"
-        }
-      ],
-      "externalId": "/content/screens/express/aceb4fea-168f-4a2f-df86-d3866168b89d",
-      "title": "Recognitions",
-      "liveUrl": "https://main--express-dev--nawaz-adobe.hlx.live/content/screens/express/aceb4fea-168f-4a2f-df86-d3866168b89d.html"
     }
   ],
   "metadata": {
