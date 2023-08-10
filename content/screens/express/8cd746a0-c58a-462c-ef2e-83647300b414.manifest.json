@@ -9,15 +9,11 @@
     ],
     "defaultProvider": "franklin"
   },
-  "timestamp": 1691660656240,
+  "timestamp": 1691661209708,
   "entries": [
     {
       "path": "/content/screens/express/8cd746a0-c58a-462c-ef2e-83647300b414.html",
-      "timestamp": 1691660516000
-    },
-    {
-      "path": "/content/screens/assets/8cd746a0-c58a-462c-ef2e-83647300b414-0.jpeg",
-      "timestamp": 1691654047000
+      "timestamp": 1691661209708
     }
   ]
 }
