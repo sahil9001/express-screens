@@ -2,7 +2,7 @@
   "channels": [
     {
       "manifestPath": "/content/screens/express/40469c11-4c0d-4b0b-2efc-ad694126f8d8.manifest.json",
-      "lastModified": "2023-08-17T06:00:34.676Z",
+      "lastModified": "2023-08-17T06:00:40.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -50,23 +50,6 @@
       "externalId": "/content/screens/express/8cd746a0-c58a-462c-ef2e-83647300b414",
       "title": "All Hands",
       "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/8cd746a0-c58a-462c-ef2e-83647300b414.html"
-    },
-    {
-      "manifestPath": "/content/screens/express/3d714936-59e9-462b-572d-175254f617b5.manifest.json",
-      "lastModified": "2023-08-17T05:46:05.000Z",
-      "hierarchy": [
-        {
-          "title": "screens",
-          "path": "/content/screens"
-        },
-        {
-          "title": "express",
-          "path": "/content/screens/express"
-        }
-      ],
-      "externalId": "/content/screens/express/3d714936-59e9-462b-572d-175254f617b5",
-      "title": "Recognitions",
-      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/3d714936-59e9-462b-572d-175254f617b5.html"
     }
   ],
   "metadata": {
