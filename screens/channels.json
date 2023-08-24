@@ -53,7 +53,7 @@
     },
     {
       "manifestPath": "/content/screens/express/720e9555-41d8-4dac-ae8a-693dbec9d5ce.manifest.json",
-      "lastModified": "2023-08-24T08:44:59.076Z",
+      "lastModified": "2023-08-24T08:45:07.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -67,6 +67,23 @@
       "externalId": "/content/screens/express/720e9555-41d8-4dac-ae8a-693dbec9d5ce",
       "title": "sunset-by-lake",
       "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/720e9555-41d8-4dac-ae8a-693dbec9d5ce.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/77c3446e-e126-4464-8dc3-c170b8e018f3.manifest.json",
+      "lastModified": "2023-08-24T11:24:15.190Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/77c3446e-e126-4464-8dc3-c170b8e018f3",
+      "title": "Untitled - 24 August 2023 at 16.50.27",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/77c3446e-e126-4464-8dc3-c170b8e018f3.html"
     }
   ],
   "metadata": {
