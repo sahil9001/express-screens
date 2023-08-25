@@ -6,29 +6,37 @@ body, html {
     overflow: hidden;
 }
 
-#carousel-container {
+.carousel-container {
     /* position: relative; */
     height: 100%;
     width: 100%;
     background-color: black;
 }
 
-img, video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    opacity: 0;
-    transition: opacity 1s;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+.carousel-track {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    transition: transform 1s ease-in-out;
+    white-space: nowrap;
+    /* Prevent wrapping of segments */
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    /* Use flex-basis to ensure each segment takes full width */
+    height: 100%;
+    display: inline-block;
+    /* Display items in a row */
+    vertical-align: top;
+    /* Align items to the top */
     width: 100%;
     height: 100%;
 }
 
-.visible {
-    opacity: 1;
+/* fix css */
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }

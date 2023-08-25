@@ -38,7 +38,7 @@
   --heading-font-size-xs: 18px;
 
   /* nav height */
-  --nav-height: 64px;
+  --nav-height: 0px;
 
 }
 
@@ -213,23 +213,6 @@ main img {
 .icon svg {
   height: 100%;
   width: 100%;
-}
-
-main .section {
-  padding: 64px 16px;
-}
-
-@media (min-width: 600px) {
-  main .section {
-    padding: 64px 32px;
-  }
-}
-
-@media (min-width: 900px) {
-  .section > div {
-    max-width: 1200px;
-    margin: auto;
-  }
 }
 
 /* section metadata */
