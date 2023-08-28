@@ -6,11 +6,10 @@ import {
   validateExtensionAndGetMediaType,
   validateTimeFormat,
   validateDateFormat,
-  isGMT
+  checkIfGMT,
 } from './utils.js';
 
 async function buildCarouselFromSheet(block) {
-
   const fetchData = async (url) => {
     let result = '';
     try {
@@ -25,7 +24,7 @@ async function buildCarouselFromSheet(block) {
     } catch (e) {
       throw new Error(`request to fetch ${url} failed with status code with error ${e}`);
     }
-  }
+  };
 
   const extractSheetData = (url) => {
     const sheetDetails = [];
@@ -34,7 +33,7 @@ async function buildCarouselFromSheet(block) {
       console.warn('No carousel data found while extracting sheet data.');
       return sheetDetails;
     }
-    for (let i = 0; i < columns.length; i++) {
+    for (let i = 0; i < columns.length; i += 1) {
       try {
         const divs = columns[i].getElementsByTagName('div');
         const value = divs[0].textContent;
@@ -42,62 +41,62 @@ async function buildCarouselFromSheet(block) {
         const linkUrl = new URL(link);
         sheetDetails.push({
           name: value,
-          link: url.origin + linkUrl.pathname
+          link: url.origin + linkUrl.pathname,
         });
       } catch (err) {
         console.warn(`Exception while processing row ${i}`, err);
       }
     }
     return sheetDetails;
-  }
+  };
 
   const processSheetDataResponse = (sheetDataResponse, sheetName) => {
     if (sheetDataResponse[':type'] === 'multi-sheet') {
       return sheetDataResponse[sheetName].data;
-    } else if (sheetDataResponse[':type'] === 'sheet') {
+    } if (sheetDataResponse[':type'] === 'sheet') {
       return sheetDataResponse.data;
-    } else {
-      throw new Error(`Invalid sheet type: ${sheetDataResponse[':type']}`);
     }
-  }
+    throw new Error(`Invalid sheet type: ${sheetDataResponse[':type']}`);
+  };
 
   const getAssets = async (url) => {
     const sheetDetails = extractSheetData(url) || [];
     console.log(JSON.stringify(sheetDetails));
     if (sheetDetails.length === 0) {
-      console.warn(`No sheet data available during HTML generation`);
+      console.warn('No sheet data available during HTML generation');
     }
     const assets = [];
     let errorFlag = false;
-    for (let sheetIndex = 0; sheetIndex < sheetDetails.length; sheetIndex++) {
+    for (let sheetIndex = 0; sheetIndex < sheetDetails.length; sheetIndex += 1) {
       try {
+        // eslint-disable-next-line no-await-in-loop
         const sheetDataResponse = JSON.parse(await fetchData(sheetDetails[sheetIndex].link));
         if (!sheetDataResponse) {
           console.warn(`Invalid sheet Link ${JSON.stringify(sheetDetails[sheetIndex])}.Skipping processing this one.`);
-          continue;
-        }
-        const sheetName = sheetDetails[sheetIndex].name;
-        const sheetData = processSheetDataResponse(sheetDataResponse, sheetName);
-        for (let row = 0; row < sheetData.length; row++) {
-          try {
-            const assetDetails = sheetData[row];
-            const contentType = validateExtensionAndGetMediaType(assetDetails['Link']);
-            validateTimeFormat(assetDetails['Start Time']);
-            validateTimeFormat(assetDetails['End Time']);
-            validateDateFormat(assetDetails['Launch Start']);
-            validateDateFormat(assetDetails['Launch End']);
-            assets.push({
-              'link': assetDetails['Link'],
-              'startTime': assetDetails['Start Time'],
-              'endTime': assetDetails['End Time'],
-              'launchStartDate': assetDetails['Launch Start'],
-              'launchEndDate': assetDetails['Launch End'],
-              'duration': assetDetails['Duration'],
-              'type': contentType,
-              'isGMT': isGMT(assetDetails['Timezone'])
-            });
-          } catch (err) {
-            console.warn(`Error while processing asset ${JSON.stringify(sheetData[row])}`, err);
+        } else {
+          const sheetName = sheetDetails[sheetIndex].name;
+          const sheetData = processSheetDataResponse(sheetDataResponse, sheetName);
+          for (let row = 0; row < sheetData.length; row += 1) {
+            try {
+              const assetDetails = sheetData[row];
+              const contentType = validateExtensionAndGetMediaType(assetDetails.Link);
+              validateTimeFormat(assetDetails['Start Time']);
+              validateTimeFormat(assetDetails['End Time']);
+              validateDateFormat(assetDetails['Launch Start']);
+              validateDateFormat(assetDetails['Launch End']);
+              assets.push({
+                link: assetDetails.Link,
+                startTime: assetDetails['Start Time'],
+                endTime: assetDetails['End Time'],
+                launchStartDate: assetDetails['Launch Start'],
+                launchEndDate: assetDetails['Launch End'],
+                duration: assetDetails.Duration,
+                type: contentType,
+                isGMT: checkIfGMT(assetDetails.Timezone),
+              });
+            } catch (err) {
+              console.warn(`Error while processing asset ${JSON.stringify(sheetData[row])}`, err);
+            }
           }
         }
       } catch (err) {
@@ -108,7 +107,7 @@ async function buildCarouselFromSheet(block) {
     if (assets.length === 0 && errorFlag) {
       // Don't create HTML with no assets when there was an error
       console.log('Skipping HTML generation due to assets length zero along with error occurrence');
-      return;
+      return assets;
     }
     return assets;
   };
@@ -117,7 +116,7 @@ async function buildCarouselFromSheet(block) {
     const div = document.createElement('div');
     div.className = className;
     return div;
-  }
+  };
 
   const createContainerFromData = (assets) => {
     const carouselTrack = createDivWithClass('carousel-track');
@@ -135,24 +134,18 @@ async function buildCarouselFromSheet(block) {
       if (asset.type === 'image') {
         const img = document.createElement('img');
         img.src = asset.link;
-        img.onerror = () => {
-          nextSlide();
-        };
         carouselItem.appendChild(img);
       } else if (asset.type === 'video') {
         const video = document.createElement('video');
         video.src = asset.link;
         video.muted = true;
         video.playsInline = true;
-        video.onerror = () => {
-          nextSlide();
-        };
         carouselItem.appendChild(video);
       }
       carouselTrack.appendChild(carouselItem);
     });
     return carouselTrack;
-  }
+  };
 
   const assets = await getAssets(new URL(document.URL));
   const container = createContainerFromData(assets);
@@ -162,8 +155,8 @@ async function buildCarouselFromSheet(block) {
 
 export default async function decorate(block) {
   await buildCarouselFromSheet(block);
-  const carouselTrack = block.querySelector(".carousel-track");
-  const carouselItems = carouselTrack.querySelectorAll(".carousel-item");
+  const carouselTrack = block.querySelector('.carousel-track');
+  const carouselItems = carouselTrack.querySelectorAll('.carousel-item');
   const totalItems = carouselItems.length;
   let currentIndex = -1;
   const DEFAULT_ITEM_DURATION = 10 * 1000;
@@ -187,46 +180,54 @@ export default async function decorate(block) {
     return false;
   }
 
-    function showSlide(itemIndex) {
-      if (itemIndex < 0 || itemIndex >= totalItems) {
-        return;
-      }
-
-      let itemWidth = carouselItems[0].offsetWidth;
-      let translateX = -itemIndex * itemWidth;
-      carouselTrack.style.transform = "translateX(" + translateX + "px)";
-      currentIndex = itemIndex;
+  function showSlide(itemIndex) {
+    if (itemIndex < 0 || itemIndex >= totalItems) {
+      return;
     }
 
-    function nextSlide() {
-      let newIndex = (currentIndex + 1) % totalItems;
-      if (!isActive(newIndex)) {
-        nextSlide();
-      }
-      showSlide(newIndex);
+    const itemWidth = carouselItems[0].offsetWidth;
+    const translateX = -itemIndex * itemWidth;
+    carouselTrack.style.transform = `translateX(${translateX}px)`;
+    currentIndex = itemIndex;
+  }
 
-      const item = carouselItems[newIndex];
-      const assetType = item.getAttribute('type');
-
-      switch (assetType) {
-        case 'video':
-          const video = item.querySelector('video');
-          video.onended = () => {
-            nextSlide();
-          };
-          video.oncanplay = () => {
-            video.play();
-          };
-          break;
-        default:
-          let itemDuration = item.getAttribute('duration') || DEFAULT_ITEM_DURATION;
-          setTimeout(nextSlide, itemDuration);
-          break;
-      }
-      
-      
+  function nextSlide() {
+    const newIndex = (currentIndex + 1) % totalItems;
+    if (!isActive(newIndex)) {
+      nextSlide();
     }
+    showSlide(newIndex);
 
-    // Start the carousel
-    nextSlide();
+    const item = carouselItems[newIndex];
+    const assetType = item.getAttribute('type');
+
+    switch (assetType) {
+      case 'video': {
+        const video = item.querySelector('video');
+        video.onended = () => {
+          nextSlide();
+        };
+        video.oncanplay = () => {
+          video.play();
+        };
+        video.onerror = () => {
+          nextSlide();
+        };
+        break;
+      }
+      default:
+      {
+        const itemDuration = item.getAttribute('duration') || DEFAULT_ITEM_DURATION;
+        const img = document.createElement('img');
+        img.onerror = () => {
+          nextSlide();
+        };
+        setTimeout(nextSlide, itemDuration);
+        break;
+      }
+    }
+  }
+
+  // Start the carousel
+  nextSlide();
 }
