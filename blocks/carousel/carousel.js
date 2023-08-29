@@ -204,11 +204,12 @@ export default async function decorate(block) {
     switch (assetType) {
       case 'video': {
         const video = item.querySelector('video');
-        video.onended = () => {
+        video.play();
+        video.onpause = () => {
           nextSlide();
         };
-        video.oncanplay = () => {
-          video.play();
+        video.onended = () => {
+          nextSlide();
         };
         video.onerror = () => {
           nextSlide();
