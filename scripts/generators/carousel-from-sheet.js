@@ -87,6 +87,10 @@ export default class HtmlGenerator {
       const assets = await getAssets(host, path);
       additionalAssets.push(...assets);
 
+      additionalAssets.push('/blocks/carousel/carousel.js');
+      additionalAssets.push('/blocks/carousel/utils.js');
+      additionalAssets.push('/blocks/carousel/carousel.css');
+
       // Get default franklin markup for path
       const franklinMarkup = await getFranklinMarkup(host, path);
       const $ = load(franklinMarkup);
