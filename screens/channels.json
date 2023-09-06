@@ -155,7 +155,7 @@
     },
     {
       "manifestPath": "/content/screens/express/8bcb7cca-8bb4-4160-9a9e-043e0593fe56.manifest.json",
-      "lastModified": "2023-09-05T12:24:40.756Z",
+      "lastModified": "2023-09-05T12:24:49.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -186,6 +186,23 @@
       "externalId": "/content/screens/express/9a41f684-8717-412d-976b-c5dc633ca8d5",
       "title": "Fairy-tales",
       "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/9a41f684-8717-412d-976b-c5dc633ca8d5.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/bc1add55-ac00-5a98-89f7-32a72b35ec1a.manifest.json",
+      "lastModified": "2023-09-06T09:13:28.859Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/bc1add55-ac00-5a98-89f7-32a72b35ec1a",
+      "title": "Untitled - September 06, 2023 at 14.25.28",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/bc1add55-ac00-5a98-89f7-32a72b35ec1a.html"
     }
   ],
   "metadata": {
