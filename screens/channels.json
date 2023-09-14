@@ -36,7 +36,7 @@
     },
     {
       "manifestPath": "/content/screens/express/8cd746a0-c58a-462c-ef2e-83647300b414.manifest.json",
-      "lastModified": "2023-08-23T14:20:56.000Z",
+      "lastModified": "2023-08-23T14:21:14.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -322,6 +322,23 @@
       "externalId": "/content/screens/express/bf1b1171-0a6c-47e1-9880-65f0b68e78c1",
       "title": "Untitled - 14 September 2023 at 00.23.59",
       "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/bf1b1171-0a6c-47e1-9880-65f0b68e78c1.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/7d670c07-b725-4ac3-8232-b583830da1d6.manifest.json",
+      "lastModified": "2023-09-14T06:15:08.699Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/7d670c07-b725-4ac3-8232-b583830da1d6",
+      "title": "Untitled - 14 September 2023 at 11.33.30",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/7d670c07-b725-4ac3-8232-b583830da1d6.html"
     }
   ],
   "metadata": {
