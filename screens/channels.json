@@ -223,7 +223,7 @@
     },
     {
       "manifestPath": "/content/screens/express/ee97ddfa-1a84-4d94-b77c-d6e3014a8aad.manifest.json",
-      "lastModified": "2023-09-12T16:21:05.000Z",
+      "lastModified": "2023-09-12T16:21:04.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -475,6 +475,23 @@
       "externalId": "/content/screens/express/4b5c62e0-d02d-434b-a606-96f15f861d3d",
       "title": "Bear",
       "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/4b5c62e0-d02d-434b-a606-96f15f861d3d.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/26f9bda0-b549-4c2b-b0e3-535efb0da02c.manifest.json",
+      "lastModified": "1970-01-01T00:00:00.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/26f9bda0-b549-4c2b-b0e3-535efb0da02c",
+      "title": "Owls",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/26f9bda0-b549-4c2b-b0e3-535efb0da02c.html"
     }
   ],
   "metadata": {
