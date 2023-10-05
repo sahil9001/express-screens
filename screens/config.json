@@ -2,4 +2,7 @@
     "storageProvider": "microsoft",
     "driveId": "b!7v-8i4BePUKvTyMl_T__i6q8Oo5Zo6ZAo-USfb-1QG_wACTWNP3_SYwGzpthENut",
     "baseFolderName": "screens-express"
+    "repoName" : "express-dev",
+    "repoBranch" : "main",
+    "repoOwner" : "nawaz-adobe"
 }
