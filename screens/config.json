@@ -4,5 +4,6 @@
     "baseFolderName": "screens-express"
     "repoName" : "express-dev",
     "repoBranch" : "main",
-    "repoOwner" : "nawaz-adobe"
+    "repoOwner" : "nawaz-adobe",
+    "expressDocTemplate" : "test-express.docx"
 }
