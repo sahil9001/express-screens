@@ -526,6 +526,23 @@
       "externalId": "/content/screens/express/8e92932b-ac8f-376c-9b43-8d7cbe12e4ea",
       "title": "Untitled - 04 October 2023 at 15.01.12",
       "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/8e92932b-ac8f-376c-9b43-8d7cbe12e4ea.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/6fa036ce-2a1a-3181-b879-3dd9ed371495.manifest.json",
+      "lastModified": "2023-10-06T08:32:59.792Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/6fa036ce-2a1a-3181-b879-3dd9ed371495",
+      "title": "IndiGo Welcome Poster",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/6fa036ce-2a1a-3181-b879-3dd9ed371495.html"
     }
   ],
   "metadata": {
