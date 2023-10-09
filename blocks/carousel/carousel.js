@@ -188,17 +188,16 @@ export default async function decorate(block) {
     const itemWidth = carouselItems[0].offsetWidth;
     const translateX = -itemIndex * itemWidth;
     carouselTrack.style.transform = `translateX(${translateX}px)`;
-    currentIndex = itemIndex;
   }
 
   function nextSlide() {
-    const newIndex = (currentIndex + 1) % totalItems;
-    if (!isActive(newIndex)) {
+    currentIndex = (currentIndex + 1) % totalItems;
+    if (!isActive(currentIndex)) {
       nextSlide();
     }
-    showSlide(newIndex);
+    showSlide(currentIndex);
 
-    const item = carouselItems[newIndex];
+    const item = carouselItems[currentIndex];
     const assetType = item.getAttribute('type');
 
     switch (assetType) {
