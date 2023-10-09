@@ -1,0 +1,551 @@
+{
+  "channels": [
+    {
+      "manifestPath": "/content/screens/express/40469c11-4c0d-4b0b-2efc-ad694126f8d8.manifest.json",
+      "lastModified": "2023-10-05T09:22:57.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/40469c11-4c0d-4b0b-2efc-ad694126f8d8",
+      "title": "Recognitions",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/40469c11-4c0d-4b0b-2efc-ad694126f8d8.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/879122cf-ccfa-4c55-7b67-2445c0f10e55.manifest.json",
+      "lastModified": "2023-10-05T09:22:58.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/879122cf-ccfa-4c55-7b67-2445c0f10e55",
+      "title": "nawaz-wiki-test",
+      "liveUrl": "https://main--express-dev--nawaz-adobe.hlx.live/content/screens/express/879122cf-ccfa-4c55-7b67-2445c0f10e55.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/8cd746a0-c58a-462c-ef2e-83647300b414.manifest.json",
+      "lastModified": "2023-10-05T09:22:59.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/8cd746a0-c58a-462c-ef2e-83647300b414",
+      "title": "DX India Screens",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/8cd746a0-c58a-462c-ef2e-83647300b414.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/720e9555-41d8-4dac-ae8a-693dbec9d5ce.manifest.json",
+      "lastModified": "2023-10-05T09:22:58.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/720e9555-41d8-4dac-ae8a-693dbec9d5ce",
+      "title": "sunset-by-lake",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/720e9555-41d8-4dac-ae8a-693dbec9d5ce.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/77c3446e-e126-4464-8dc3-c170b8e018f3.manifest.json",
+      "lastModified": "2023-10-05T09:22:58.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/77c3446e-e126-4464-8dc3-c170b8e018f3",
+      "title": "Untitled - 24 August 2023 at 16.50.27",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/77c3446e-e126-4464-8dc3-c170b8e018f3.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/d49d83e3-7f0a-47be-bec7-421c471f45ad.manifest.json",
+      "lastModified": "2023-10-05T09:23:01.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/d49d83e3-7f0a-47be-bec7-421c471f45ad",
+      "title": "Untitled - 27 August 2023 at 13.18.28",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/d49d83e3-7f0a-47be-bec7-421c471f45ad.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/36dbbb25-e9e1-4883-8fe5-1b08ced74707.manifest.json",
+      "lastModified": "2023-10-05T09:22:57.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/36dbbb25-e9e1-4883-8fe5-1b08ced74707",
+      "title": "Untitled - 25 August 2023 at 10.35.26",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/36dbbb25-e9e1-4883-8fe5-1b08ced74707.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/c717c761-cf3c-4327-4932-e11b9eded066.manifest.json",
+      "lastModified": "2023-10-05T09:23:00.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/c717c761-cf3c-4327-4932-e11b9eded066",
+      "title": "Recognitions",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/c717c761-cf3c-4327-4932-e11b9eded066.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/27fcffec-6a61-4695-acc5-ef7db739d879.manifest.json",
+      "lastModified": "2023-10-05T09:22:57.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/27fcffec-6a61-4695-acc5-ef7db739d879",
+      "title": "Untitled - 01 September 2023 at 11.37.01",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/27fcffec-6a61-4695-acc5-ef7db739d879.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/8bcb7cca-8bb4-4160-9a9e-043e0593fe56.manifest.json",
+      "lastModified": "2023-10-05T09:22:59.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/8bcb7cca-8bb4-4160-9a9e-043e0593fe56",
+      "title": "Untitled - 01 September 2023 at 11.39.48",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/8bcb7cca-8bb4-4160-9a9e-043e0593fe56.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/9a41f684-8717-412d-976b-c5dc633ca8d5.manifest.json",
+      "lastModified": "2023-10-05T09:22:59.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/9a41f684-8717-412d-976b-c5dc633ca8d5",
+      "title": "Fairy-tales",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/9a41f684-8717-412d-976b-c5dc633ca8d5.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/bc1add55-ac00-5a98-89f7-32a72b35ec1a.manifest.json",
+      "lastModified": "2023-10-05T09:23:00.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/bc1add55-ac00-5a98-89f7-32a72b35ec1a",
+      "title": "Untitled - September 06, 2023 at 14.25.28",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/bc1add55-ac00-5a98-89f7-32a72b35ec1a.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/99c1bafe-f5bd-49e4-9272-b2f57de27e09.manifest.json",
+      "lastModified": "2023-10-05T09:22:59.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/99c1bafe-f5bd-49e4-9272-b2f57de27e09",
+      "title": "Untitled - 06 September 2023 at 22.59.37",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/99c1bafe-f5bd-49e4-9272-b2f57de27e09.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/ee97ddfa-1a84-4d94-b77c-d6e3014a8aad.manifest.json",
+      "lastModified": "2023-10-05T09:23:01.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/ee97ddfa-1a84-4d94-b77c-d6e3014a8aad",
+      "title": "test-channel",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/ee97ddfa-1a84-4d94-b77c-d6e3014a8aad.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/efe6a6ab-7df2-483c-a79d-3f678ab2eea4.manifest.json",
+      "lastModified": "2023-10-05T09:23:01.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/efe6a6ab-7df2-483c-a79d-3f678ab2eea4",
+      "title": "Untitled - 12 September 2023 at 18.04.57",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/efe6a6ab-7df2-483c-a79d-3f678ab2eea4.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/e8cd2a67-ccb5-4261-9a0c-abaf9cccc677.manifest.json",
+      "lastModified": "2023-10-05T09:23:01.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/e8cd2a67-ccb5-4261-9a0c-abaf9cccc677",
+      "title": "Untitled - 12 September 2023 at 18.44.22",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/e8cd2a67-ccb5-4261-9a0c-abaf9cccc677.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/041d853c-0575-4ccc-8ac1-0c3b197403d2.manifest.json",
+      "lastModified": "2023-10-05T09:22:56.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/041d853c-0575-4ccc-8ac1-0c3b197403d2",
+      "title": "Untitled - 13 September 2023 at 17.05.15",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/041d853c-0575-4ccc-8ac1-0c3b197403d2.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/54ccb8b0-3bf0-4171-a114-ed014b240fd4.manifest.json",
+      "lastModified": "2023-10-05T09:22:58.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/54ccb8b0-3bf0-4171-a114-ed014b240fd4",
+      "title": "Untitled - 14 September 2023 at 00.06.22",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/54ccb8b0-3bf0-4171-a114-ed014b240fd4.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/bf1b1171-0a6c-47e1-9880-65f0b68e78c1.manifest.json",
+      "lastModified": "2023-10-05T09:23:00.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/bf1b1171-0a6c-47e1-9880-65f0b68e78c1",
+      "title": "Untitled - 14 September 2023 at 00.23.59",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/bf1b1171-0a6c-47e1-9880-65f0b68e78c1.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/7d670c07-b725-4ac3-8232-b583830da1d6.manifest.json",
+      "lastModified": "2023-10-05T09:22:58.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/7d670c07-b725-4ac3-8232-b583830da1d6",
+      "title": "Untitled - 14 September 2023 at 11.33.30",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/7d670c07-b725-4ac3-8232-b583830da1d6.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/cfc8972f-5b26-458a-8379-532c67de94db.manifest.json",
+      "lastModified": "2023-10-05T09:23:00.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/cfc8972f-5b26-458a-8379-532c67de94db",
+      "title": "Untitled - 14 September 2023 at 13.59.01",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/cfc8972f-5b26-458a-8379-532c67de94db.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/a77c496e-6782-4b25-9638-e666155fd795.manifest.json",
+      "lastModified": "2023-10-05T09:22:59.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/a77c496e-6782-4b25-9638-e666155fd795",
+      "title": "Untitled - 14 September 2023 at 14.21.34",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/a77c496e-6782-4b25-9638-e666155fd795.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/8c5bbe8b-160e-4b3b-bd29-ee518940b50b.manifest.json",
+      "lastModified": "2023-10-05T09:22:59.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/8c5bbe8b-160e-4b3b-bd29-ee518940b50b",
+      "title": "Untitled - 15 September 2023 at 13.13.47",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/8c5bbe8b-160e-4b3b-bd29-ee518940b50b.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/83b2a427-a752-40ef-872c-3b13855bee08.manifest.json",
+      "lastModified": "2023-10-05T09:22:58.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/83b2a427-a752-40ef-872c-3b13855bee08",
+      "title": "Recognitions_New",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/83b2a427-a752-40ef-872c-3b13855bee08.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/ad1d0e88-300b-4790-a434-b1f7fa5cb8ad.manifest.json",
+      "lastModified": "2023-10-05T09:23:00.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/ad1d0e88-300b-4790-a434-b1f7fa5cb8ad",
+      "title": "Untitled - 18 September 2023 at 05.53.52",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/ad1d0e88-300b-4790-a434-b1f7fa5cb8ad.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/892123d4-1b51-41e3-9e24-24ff88dc5f4e.manifest.json",
+      "lastModified": "2023-10-05T09:22:58.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/892123d4-1b51-41e3-9e24-24ff88dc5f4e",
+      "title": "Asprey Poster",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/892123d4-1b51-41e3-9e24-24ff88dc5f4e.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/213ad589-dae0-41f5-87ed-8fba2e5d4726.manifest.json",
+      "lastModified": "2023-10-05T09:22:56.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/213ad589-dae0-41f5-87ed-8fba2e5d4726",
+      "title": "Volvo Poster EX90",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/213ad589-dae0-41f5-87ed-8fba2e5d4726.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/4b5c62e0-d02d-434b-a606-96f15f861d3d.manifest.json",
+      "lastModified": "2023-10-05T09:22:57.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/4b5c62e0-d02d-434b-a606-96f15f861d3d",
+      "title": "Bear",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/4b5c62e0-d02d-434b-a606-96f15f861d3d.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/26f9bda0-b549-4c2b-b0e3-535efb0da02c.manifest.json",
+      "lastModified": "2023-10-06T21:54:48.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/26f9bda0-b549-4c2b-b0e3-535efb0da02c",
+      "title": "Owls",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/26f9bda0-b549-4c2b-b0e3-535efb0da02c.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/6693d89e-080a-31d7-96ed-34444fca1b60.manifest.json",
+      "lastModified": "1970-01-01T00:00:00.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/6693d89e-080a-31d7-96ed-34444fca1b60",
+      "title": "Untitled - 04 October 2023 at 11.07.17",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/6693d89e-080a-31d7-96ed-34444fca1b60.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/8e92932b-ac8f-376c-9b43-8d7cbe12e4ea.manifest.json",
+      "lastModified": "2023-10-05T10:06:36.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/8e92932b-ac8f-376c-9b43-8d7cbe12e4ea",
+      "title": "Untitled - 04 October 2023 at 15.01.12",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/8e92932b-ac8f-376c-9b43-8d7cbe12e4ea.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/6fa036ce-2a1a-3181-b879-3dd9ed371495.manifest.json",
+      "lastModified": "2023-10-06T14:09:24.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/6fa036ce-2a1a-3181-b879-3dd9ed371495",
+      "title": "IndiGo Welcome Poster",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/6fa036ce-2a1a-3181-b879-3dd9ed371495.html"
+    }
+  ],
+  "metadata": {
+    "providerType": "franklin"
+  }
+}
