@@ -240,7 +240,7 @@
     },
     {
       "manifestPath": "/content/screens/express/efe6a6ab-7df2-483c-a79d-3f678ab2eea4.manifest.json",
-      "lastModified": "2023-10-12T06:00:53.595Z",
+      "lastModified": "2023-10-12T06:01:04.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -543,6 +543,23 @@
       "externalId": "/content/screens/express/6fa036ce-2a1a-3181-b879-3dd9ed371495",
       "title": "IndiGo Welcome Poster",
       "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/6fa036ce-2a1a-3181-b879-3dd9ed371495.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/a8beb983-fd19-36c4-92f7-c2cd158c3c38.manifest.json",
+      "lastModified": "2023-10-12T08:27:38.623Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/a8beb983-fd19-36c4-92f7-c2cd158c3c38",
+      "title": "Untitled - 11 October 2023 at 11.08.32",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/a8beb983-fd19-36c4-92f7-c2cd158c3c38.html"
     }
   ],
   "metadata": {
