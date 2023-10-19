@@ -9,5 +9,6 @@
     "repoBranch" : "main",
     "repoOwner" : "nawaz-adobe",
     "expressDocTemplate" : "test-express.docx",
-    "expressScheduleFileName" : "schedules.xlsx"
+    "expressScheduleFileName" : "schedules.xlsx",
+    "newfield" : "test"
 }
