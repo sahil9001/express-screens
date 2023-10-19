@@ -3,7 +3,7 @@
     "driveId": "b!7v-8i4BePUKvTyMl_T__i6q8Oo5Zo6ZAo-USfb-1QG_wACTWNP3_SYwGzpthENut",
     "baseFolderName": "screens-express",
     "assetsPath": "/assets",
-    "channelsPath": "/channels",
+    "channelsPath": "/express",
     "schedulesPath": "/content/screens/schedules",
     "repoName" : "express-dev",
     "repoBranch" : "main",
