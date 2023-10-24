@@ -87,7 +87,7 @@
     },
     {
       "manifestPath": "/content/screens/express/d49d83e3-7f0a-47be-bec7-421c471f45ad.manifest.json",
-      "lastModified": "2023-08-31T08:14:54.000Z",
+      "lastModified": "2023-10-05T09:23:01.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -611,6 +611,23 @@
       "externalId": "/content/screens/express/6f51d47d-a2bc-59b5-81a7-52b2c3ed0bf2",
       "title": "Untitled - 10 October 2023 at 16.43.50",
       "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/6f51d47d-a2bc-59b5-81a7-52b2c3ed0bf2.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/2202168c-1af6-378c-ae69-a734ca7069db.manifest.json",
+      "lastModified": "2023-10-24T14:26:05.721Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/2202168c-1af6-378c-ae69-a734ca7069db",
+      "title": "London Office Screens",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/2202168c-1af6-378c-ae69-a734ca7069db.html"
     }
   ],
   "metadata": {
