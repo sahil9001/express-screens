@@ -53,7 +53,7 @@
     },
     {
       "manifestPath": "/content/screens/express/720e9555-41d8-4dac-ae8a-693dbec9d5ce.manifest.json",
-      "lastModified": "2023-10-26T10:20:14.597Z",
+      "lastModified": "2023-10-26T10:20:21.000Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -172,7 +172,7 @@
     },
     {
       "manifestPath": "/content/screens/express/9a41f684-8717-412d-976b-c5dc633ca8d5.manifest.json",
-      "lastModified": "2023-10-05T09:22:59.000Z",
+      "lastModified": "2023-10-26T10:33:54.843Z",
       "hierarchy": [
         {
           "title": "screens",
@@ -628,6 +628,23 @@
       "externalId": "/content/screens/express/2202168c-1af6-378c-ae69-a734ca7069db",
       "title": "London Office Screens",
       "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/2202168c-1af6-378c-ae69-a734ca7069db.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/50f90bda-68c1-4e94-8ce2-79191e332f30.manifest.json",
+      "lastModified": "1970-01-01T00:00:00.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        }
+      ],
+      "externalId": "/content/screens/express/50f90bda-68c1-4e94-8ce2-79191e332f30",
+      "title": "channel-title",
+      "liveUrl": "https://www.org-gitesh-recognitions.aem-screens.com/content/screens/express/50f90bda-68c1-4e94-8ce2-79191e332f30.html"
     }
   ],
   "metadata": {
