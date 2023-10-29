@@ -1,0 +1,18 @@
+{
+  "version": "3.0",
+  "contentDelivery": {
+    "providers": [
+      {
+        "name": "franklin",
+        "endpoint": "/"
+      }
+    ],
+    "defaultProvider": "franklin"
+  },
+  "timestamp": 1698417032608,
+  "entries": [
+    {
+      "path": "/content/screens/express/7624b879-91ba-3637-ba2a-2decab7e5c8c.html"
+    }
+  ]
+}

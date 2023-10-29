@@ -1,0 +1,55 @@
+{
+  "version": "3.0",
+  "contentDelivery": {
+    "providers": [
+      {
+        "name": "franklin",
+        "endpoint": "/"
+      }
+    ],
+    "defaultProvider": "franklin"
+  },
+  "timestamp": 1689365396557,
+  "entries": [
+    {
+      "path": "/content/screens/express/a6530eaa-0fdc-4373-f468-b053a2b33213.html",
+      "timestamp": 1688027119000
+    },
+    {
+      "path": "/content/screens/assets/b08abbe5-ff89-443e-9f41-f925e1a90e30-0.jpeg",
+      "timestamp": 1688026876000
+    },
+    {
+      "path": "/content/screens/assets/b08abbe5-ff89-443e-9f41-f925e1a90e30-1.jpeg",
+      "timestamp": 1688026887000
+    },
+    {
+      "path": "/content/screens/assets/b08abbe5-ff89-443e-9f41-f925e1a90e30-2.jpeg",
+      "timestamp": 1688026899000
+    },
+    {
+      "path": "/content/screens/assets/b08abbe5-ff89-443e-9f41-f925e1a90e30-3.jpeg",
+      "timestamp": 1688026909000
+    },
+    {
+      "path": "/content/screens/assets/b08abbe5-ff89-443e-9f41-f925e1a90e30-4.jpeg",
+      "timestamp": 1688026920000
+    },
+    {
+      "path": "/content/screens/assets/b08abbe5-ff89-443e-9f41-f925e1a90e30-5.jpeg",
+      "timestamp": 1688026930000
+    },
+    {
+      "path": "/content/screens/assets/b08abbe5-ff89-443e-9f41-f925e1a90e30-6.jpeg",
+      "timestamp": 1688026939000
+    },
+    {
+      "path": "/content/screens/assets/b08abbe5-ff89-443e-9f41-f925e1a90e30-7.jpeg",
+      "timestamp": 1688026948000
+    },
+    {
+      "path": "/content/screens/assets/b08abbe5-ff89-443e-9f41-f925e1a90e30-8.jpeg",
+      "timestamp": 1688026961000
+    }
+  ]
+}

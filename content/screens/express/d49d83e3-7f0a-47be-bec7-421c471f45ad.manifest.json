@@ -1,0 +1,27 @@
+{
+  "version": "3.0",
+  "contentDelivery": {
+    "providers": [
+      {
+        "name": "franklin",
+        "endpoint": "/"
+      }
+    ],
+    "defaultProvider": "franklin"
+  },
+  "timestamp": 1698417024504,
+  "entries": [
+    {
+      "path": "/content/screens/express/d49d83e3-7f0a-47be-bec7-421c471f45ad.html",
+      "timestamp": 1696497781000
+    },
+    {
+      "path": "/content/screens/assets/d49d83e3-7f0a-47be-bec7-421c471f45ad-1.jpeg",
+      "timestamp": 1693469692000
+    },
+    {
+      "path": "/content/screens/assets/d49d83e3-7f0a-47be-bec7-421c471f45ad-0.jpeg",
+      "timestamp": 1693469694000
+    }
+  ]
+}
