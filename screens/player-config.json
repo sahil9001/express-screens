@@ -1,0 +1,22 @@
+{
+    "server": "http://localhost:4502",
+    "registrationKey": "",
+    "device": "",
+    "user": "",
+    "password": "",
+    "resolution": "auto",
+    "rebootSchedule": "at 4:00 am",
+    "maxNumberOfLogFilesToKeep": 10,
+    "logLevel": 3,
+    "enableAdminUI": true,
+    "enableOSD": true,
+    "enableActivityUI": false,
+    "enableNativeVideo": false,
+    "enableAutoScreenshot": false,
+    "enableAdvancedPlaybackMonitoring": false,
+    "cloudMode": true,
+    "cloudUrl": "https://288650-869emeraldcapybara.adobeioruntime.net",
+    "cloudToken": "l8gw-1x4w-oofo",
+    "enableDeveloperMode": true
+  }
+  

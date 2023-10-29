@@ -5,9 +5,9 @@
     "assetsPath": "/assets",
     "channelsPath": "/express",
     "schedulesPath": "/content/screens/schedules",
-    "repoName" : "express-dev",
+    "repoName" : "express-screens",
     "repoBranch" : "main",
-    "repoOwner" : "nawaz-adobe",
+    "repoOwner" : "sahil9001",
     "expressDocTemplate" : "test-express.docx",
     "expressScheduleFileName" : "schedules.xlsx",
     "newfield" : "test"
