@@ -1,14 +1,9 @@
 {
     "storageProvider": "microsoft",
     "driveId": "b!7v-8i4BePUKvTyMl_T__i6q8Oo5Zo6ZAo-USfb-1QG_wACTWNP3_SYwGzpthENut",
-    "baseFolderName": "screens-express",
-    "assetsPath": "/assets",
-    "channelsPath": "/express",
-    "schedulesPath": "/content/screens/schedules",
-    "repoName" : "express-screens",
+    "baseFolderName": "screens-express"
+    "repoName" : "express-dev",
     "repoBranch" : "main",
-    "repoOwner" : "sahil9001",
-    "expressDocTemplate" : "test-express.docx",
-    "expressScheduleFileName" : "schedules.xlsx",
-    "newfield" : "test"
+    "repoOwner" : "nawaz-adobe",
+    "expressDocTemplate" : "test-express.docx"
 }
