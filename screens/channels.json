@@ -1,5 +1,13 @@
 {
-  "channels": [],
+  "channels": [
+    {
+      "manifestPath": "/content/screens/express/sahil-channel-1.manifest.json",
+      "lastModified": "2023-10-30T10:34:16.750Z",
+      "externalId": "/content/screens/express/sahil-channel-1",
+      "title": "Sahil Channel",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/sahil-channel-1.html"
+    }
+  ],
   "metadata": {
     "providerType": "franklin"
   }
