@@ -10,5 +10,6 @@
     "repoOwner" : "sahil9001",
     "expressDocTemplate" : "test-express.docx",
     "expressScheduleFileName" : "schedules.xlsx",
-    "newfield" : "test"
+    "newfield" : "test",
+    "tenantSecretFolderName" : "adobe"
 }
