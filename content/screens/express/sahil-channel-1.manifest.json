@@ -1,10 +1,10 @@
 {
   "version": "3.0",
-  "timestamp": 1698748690000,
+  "timestamp": 1699597108428,
   "entries": [
     {
       "path": "/content/screens/express/sahil-channel-1.html",
-      "timestamp": 1698654298000
+      "timestamp": 1699597108428
     },
     {
       "path": "/scripts/lib-franklin.js",
@@ -20,14 +20,10 @@
     },
     {
       "path": "/content/screens/schedules/schedule.json",
-      "timestamp": 1698748690000
+      "timestamp": 1699596974000
     },
     {
       "path": "/assets/bike.jpeg",
-      "timestamp": 1698654310000
-    },
-    {
-      "path": "/assets/onlyoneimage.jpeg",
       "timestamp": 1698654310000
     },
     {
