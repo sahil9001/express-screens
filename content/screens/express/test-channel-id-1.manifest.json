@@ -1,10 +1,10 @@
 {
   "version": "3.0",
-  "timestamp": 1700552108000,
+  "timestamp": 1700767338697,
   "entries": [
     {
       "path": "/content/screens/express/test-channel-id-1.html",
-      "timestamp": 1700472785000
+      "timestamp": 1700767338697
     },
     {
       "path": "/scripts/lib-franklin.js",
@@ -29,14 +29,6 @@
     {
       "path": "/blocks/columns/columns.js",
       "timestamp": 1683548838000
-    },
-    {
-      "path": "/content/screens/schedules/schedule.json",
-      "timestamp": 1700552108000
-    },
-    {
-      "path": "/assets/bike.jpeg",
-      "timestamp": 1698654310000
     },
     {
       "path": "/blocks/carousel/carousel.js",
