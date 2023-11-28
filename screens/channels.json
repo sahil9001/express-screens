@@ -107,10 +107,17 @@
     },
     {
       "manifestPath": "/content/screens/express/channels/fb2e4114-5919-430a-a605-9152699cd26a.manifest.json",
-      "lastModified": "2023-11-25T14:20:03.130Z",
+      "lastModified": "2023-11-25T14:17:58.000Z",
       "externalId": "/content/screens/express/channels/fb2e4114-5919-430a-a605-9152699cd26a",
       "title": "test-123",
       "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/channels/fb2e4114-5919-430a-a605-9152699cd26a.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/channels/253e55f9-ff7b-579a-ac22-b73a34db773d.manifest.json",
+      "lastModified": "2023-11-28T09:16:50.175Z",
+      "externalId": "/content/screens/express/channels/253e55f9-ff7b-579a-ac22-b73a34db773d",
+      "title": "Untitled - 28 November 2023 at 14.20.52",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/channels/253e55f9-ff7b-579a-ac22-b73a34db773d.html"
     }
   ],
   "metadata": {
