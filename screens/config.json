@@ -5,11 +5,10 @@
     "assetsPath": "/assets",
     "channelsPath": "/channels",
     "schedulesPath": "/schedules",
+    "deliveryPath":"/content/screens/",
     "repoName" : "express-screens",
     "repoBranch" : "main",
     "repoOwner" : "sahil9001",
-    "expressDocTemplate" : "test-express.docx",
-    "expressScheduleFileName" : "schedules.xlsx",
-    "newfield" : "test",
-    "tenantSecretFolderName" : "adobe"
+    "docTemplate" : "test-express.docx",
+    "secretFolderName" : "adobe"
 }
