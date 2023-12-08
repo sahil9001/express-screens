@@ -1,0 +1,63 @@
+{
+  "version": "3.0",
+  "timestamp": 1702039739000,
+  "entries": [
+    {
+      "path": "/content/screens/express/channels/e57257a3-bf17-444b-831b-85cc905db1c3.html",
+      "timestamp": 1702013583000
+    },
+    {
+      "path": "/scripts/lib-franklin.js",
+      "timestamp": 1683548840000
+    },
+    {
+      "path": "/scripts/scripts.js",
+      "timestamp": 1683548840000
+    },
+    {
+      "path": "/styles/styles.css",
+      "timestamp": 1698653105000
+    },
+    {
+      "path": "/scripts/delayed.js",
+      "timestamp": 1683548840000
+    },
+    {
+      "path": "/blocks/columns/columns.css",
+      "timestamp": 1683548838000
+    },
+    {
+      "path": "/blocks/columns/columns.js",
+      "timestamp": 1683548838000
+    },
+    {
+      "path": "/content/screens/express/schedules/schedule-e57257a3-bf17-444b-831b-85cc905db1c3.json",
+      "timestamp": 1702039739000
+    },
+    {
+      "path": "/content/screens/express/assets/e57257a3-bf17-444b-831b-85cc905db1c3-0.jpg",
+      "timestamp": 1702013419000
+    },
+    {
+      "path": "/blocks/carousel/carousel.js",
+      "timestamp": 1698653105000
+    },
+    {
+      "path": "/blocks/carousel/utils.js",
+      "timestamp": 1698653105000
+    },
+    {
+      "path": "/blocks/carousel/carousel.css",
+      "timestamp": 1698653105000
+    }
+  ],
+  "contentDelivery": {
+    "providers": [
+      {
+        "name": "franklin",
+        "endpoint": "/"
+      }
+    ],
+    "defaultProvider": "franklin"
+  }
+}
