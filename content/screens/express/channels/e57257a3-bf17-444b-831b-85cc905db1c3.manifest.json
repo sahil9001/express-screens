@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "timestamp": 1702039739000,
+  "timestamp": 1702040043000,
   "entries": [
     {
       "path": "/content/screens/express/channels/e57257a3-bf17-444b-831b-85cc905db1c3.html",
@@ -32,11 +32,15 @@
     },
     {
       "path": "/content/screens/express/schedules/schedule-e57257a3-bf17-444b-831b-85cc905db1c3.json",
-      "timestamp": 1702039739000
+      "timestamp": 1702040043000
     },
     {
       "path": "/content/screens/express/assets/e57257a3-bf17-444b-831b-85cc905db1c3-0.jpg",
       "timestamp": 1702013419000
+    },
+    {
+      "path": "/content/screens/express/assets/e57257a3-bf17-444b-831b-85cc905db1c3-1.jpg",
+      "timestamp": 1702040032000
     },
     {
       "path": "/blocks/carousel/carousel.js",
