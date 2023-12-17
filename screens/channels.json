@@ -451,6 +451,27 @@
       "externalId": "/content/screens/express/channels/683a9d0d-7f1d-55be-8998-270dff05ae47",
       "title": "Untitled - 17 December 2023 at 21.11.35",
       "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/channels/683a9d0d-7f1d-55be-8998-270dff05ae47.html"
+    },
+    {
+      "manifestPath": "/content/screens/express/channels/e2b4980f-5a71-3b27-999f-dcc35a353a60.manifest.json",
+      "lastModified": "2023-12-17T17:53:00.000Z",
+      "hierarchy": [
+        {
+          "title": "screens",
+          "path": "/content/screens"
+        },
+        {
+          "title": "express",
+          "path": "/content/screens/express"
+        },
+        {
+          "title": "channels",
+          "path": "/content/screens/express/channels"
+        }
+      ],
+      "externalId": "/content/screens/express/channels/e2b4980f-5a71-3b27-999f-dcc35a353a60",
+      "title": "Untitled - 17 December 2023 at 22.49.10",
+      "liveUrl": "https://main--express-screens--sahil9001.hlx.live/content/screens/express/channels/e2b4980f-5a71-3b27-999f-dcc35a353a60.html"
     }
   ],
   "metadata": {
