@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/adobe/helix-project-boilerplate#readme",
   "dependencies": {
-    "@aem-screens/screens-offlineresources-generator": "1.0.3",
+    "@aem-screens/screens-offlineresources-generator": "1.0.6",
     "cheerio": "^1.0.0-rc.12",
     "fs-extra": "^11.1.1",
     "node-fetch": "^3.3.0"
